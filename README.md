@@ -27,7 +27,6 @@ pip install -r requirements.txt
 API_KEY=tu_api_key
 ```
 - Si no existe, crea la carpeta de chats en la raíz del proyecto:
-Linux:
 ```bash
 mkdir -p chats
 ```
