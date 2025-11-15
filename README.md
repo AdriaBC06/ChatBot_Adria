@@ -39,3 +39,13 @@ chmod +x start.sh
 ```
 Esto abrirá el puerto `5000` para el backend Flask y el puerto `5500` para el frontend HTML.
 Desde cualquier dispositivo de la red local abre: `http://<ip-del-sevidor>:5500`
+
+Windows:
+- Ejecutar PowerShell como admin y ejecutar:
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
+- Luego ejecutar
+```powershell
+./run.ps1
+```
